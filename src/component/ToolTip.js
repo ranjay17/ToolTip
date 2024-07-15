@@ -5,7 +5,7 @@ import { useState } from 'react';
 const ToolTip = ({ content, position = 'top' }) => {
 
   // initializing a state variable 'visible' with a default value of false
-  
+  // setVisible is the function used to update the state of 'visible'
   const [visible, setVisible] = useState(false);
 
   // function to toggle the visibility of the tooltip
